@@ -28,11 +28,18 @@ body{
     display: inline-block;
 margin-top:20px;
 font-size:30px;
+    color:white;
 }
 
 .right li{
     display: inline-block;
     margin-top:20px;
+
+}
+
+.right li a{
+    color:white;
+    text-decoration: none;
 }
 
 #projects{
