@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+}
+
+
+
+
+.home{
+    background-image: url("coffee-2085314_1280.png");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.fixed{
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+.brand{
+    display: inline-block;
+margin-top:20px;
+font-size:30px;
+}
+
+.right li{
+    display: inline-block;
+    margin-top:20px;
+}
+
+#projects{
+
+    height:100vh;
+}
+
+#resume{
+    height: 100vh;
+}
+
+#contact{
+    height: 100vh;
+}
+@media (min-width: 480px) {
+    .brand {
+        margin-left:10%;
+        float: left;
+    }
+    .right {
+        float: right;
+        margin-right:10%;
+    }
+}
