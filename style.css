@@ -1,11 +1,12 @@
 body{
     text-align: center;
+    background:#181818;
 }
 
 
 
 
-.home{
+#home{
     background-image: url("coffee-2085314_1280.png");
 
     /* Set a specific height */
@@ -18,7 +19,7 @@ body{
     position: relative;
 }
 
-.fixedd{
+.fixed{
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -27,19 +28,24 @@ body{
 
 .downArrow{
     color:white;
-    position:fixed;
-    bottom:0;
+
 }
 .brand{
     display: inline-block;
 margin-top:20px;
 font-size:30px;
-    color:white;
+
 }
+
+.brand a{
+    color:white;
+    text-decoration: none;
+}
+
 
 .right li{
     display: inline-block;
-    margin-top:10px;
+    margin-top:20px;
 
 }
 
@@ -51,20 +57,43 @@ font-size:30px;
 
 /* looks horrible  on larger screens fix soon */
 
-.codepen{
- width:100%;
-}
+
 
 #projects{
+
     height:100vh;
-    }
-
-
-
-
-#resume{
+    color:white;
+    text-align:center;
+    background:#3F250B;
 
 }
+
+#projects a{
+    color:white;
+
+
+}
+.codepen{
+    max-width: 90%;
+    height: auto;
+
+
+}
+
+
+
+.codepen:first-child{
+    margin-top:120px;
+}
+#projects li{
+
+    display: inline-block;
+}
+
+/*resume has a seperate stylesheet that includes the
+    css for #resume
+    */
+
 
 #contact{
     height: 100vh;
