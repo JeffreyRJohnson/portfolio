@@ -19,40 +19,51 @@ body{
     position: relative;
 }
 
-.fixed{
+.menu{
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
 
-.downArrow{
-    color:white;
-
-}
-.brand{
+.menu__name{
     display: inline-block;
-margin-top:20px;
-font-size:30px;
-
+    margin-top:20px;
+    font-size:30px;
 }
 
-.brand a{
+.menu__name__link{
     color:white;
     text-decoration: none;
 }
 
+.menu__row {
+    float: right;
+    margin-right:10%;
+}
 
-.right li{
+.menu__list{
     display: inline-block;
     margin-top:20px;
 
 }
 
-.right li a{
+.menu__link{
     color:white;
     text-decoration: none;
 }
+
+
+.downArrow{
+    color:white;
+
+}
+
+
+
+
+
+
 
 
 /* looks horrible  on larger screens fix soon */
@@ -99,12 +110,9 @@ font-size:30px;
     height: 100vh;
 }
 @media (min-width: 480px) {
-    .brand {
+    .menu__name {
         margin-left:10%;
         float: left;
     }
-    .right {
-        float: right;
-        margin-right:10%;
-    }
+
 }
