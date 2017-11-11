@@ -3,6 +3,10 @@ body{
     background:#181818;*/
 }
 
+a{
+    cursor:pointer;
+}
+
 #home{
     background-image: url("coffee-2085314_1280.png");
 
