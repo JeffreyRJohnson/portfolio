@@ -1,6 +1,6 @@
 body{
-   /* text-align: center;*/
-    background:#181818;
+   /* text-align: center;
+    background:#181818;*/
 }
 
 #home{
@@ -51,7 +51,7 @@ body{
 }
 
 #projects{
-    height:100vh;
+    min-height:100vh;
     color:white;
     background:#3F250B;
 }
@@ -99,6 +99,45 @@ body{
 
 }
 
+#resume {
+    height:100vh;
+    background:#3F250B;
+}
+
+.resume__container{
+    padding-top: 150px;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+
+}
+
+.resume{
+    text-align: center;
+    background: white;
+}
+
+.resume__contact-info{
+font-size: 14px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    margin-bottom: -6px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-left: 2px;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+
+
+
 /*resume has a seperate stylesheet that includes the
     css for #resume
     */
@@ -113,6 +152,10 @@ body{
     .menu__row {
         float: right;
         margin-right:10%;
+    }
+
+    .resume{
+        text-align: left;
     }
 
 }
