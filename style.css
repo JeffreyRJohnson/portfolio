@@ -58,6 +58,11 @@ a {
   background: #3f250b;
 }
 
+#projects h2 {
+  margin-bottom: -150px;
+  padding-top: 50px;
+}
+
 .projects__card__container {
   padding-top: 150px;
   list-style: none;
